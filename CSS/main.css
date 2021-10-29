@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  padding-left: calc(50% - 584px);
+  padding-right: calc(50% - 584px);
+}
+
+.centerTop {
+  padding-left: calc(50% - 585px);
+  padding-right: calc(50% - 585px);
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.header__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 25px 61px 25px 0px;
+}
+
+.header__center {
+  position: relative;
+  margin: 20px 60px 20px 0px;
+}
+
+.header__center__svg {
+  position: absolute;
+  left: 14px;
+  top: 12px;
+}
+
+.header__inp {
+  background: #FFFFFF;
+  border: 1px solid #EBEBF1;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  width: 763px;
+  height: 40px;
+  padding-left: 39px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  color: #BBC4D6;
+}
+
+.header__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px 0px 20px 19px;
+}
+
+.header__right__uName {
+  margin-right: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: right;
+  letter-spacing: 0.01em;
+  color: #768298;
+}
+
+.header__right__img {
+  width: 40px;
+  height: 40px;
+}
+
+.main {
+  margin-top: 70px;
+}
+
+.main__caption {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 160%;
+  text-transform: uppercase;
+  color: #121920;
+}
+
+.main__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.main__imgBox {
+  background: #FFFFFF;
+  border: 1px solid #EBEBF1;
+  max-width: 270px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.main__imgBox:hover {
+  cursor: pointer;
+  background: #FFFFFF;
+  border: 1px solid #EBEBF1;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: -3px 0px 40px rgba(0, 0, 0, 0.1), 0px 0px 10px rgba(164, 164, 164, 0.03);
+          box-shadow: -3px 0px 40px rgba(0, 0, 0, 0.1), 0px 0px 10px rgba(164, 164, 164, 0.03);
+  border-radius: 5px;
+}
+
+.henkel {
+  margin: 28px 77px;
+}
+
+.JD {
+  margin: 38px 18px;
+}
+
+.mac {
+  margin: 28px 92px;
+}
+
+.ikea {
+  margin: 28px 55px;
+}
+
+.reebok {
+  margin: 36px 18px;
+}
+
+.nike {
+  margin: 28px 74px;
+}
+
+.cat {
+  margin: 42px 18px;
+}
+
+@media (max-width: 768px) {
+  .center {
+    padding-left: calc(50% - 364px);
+    padding-right: calc(50% - 364px);
+  }
+  .centerTop {
+    padding-left: calc(50% - 364px);
+    padding-right: 0px;
+  }
+  .header__inp {
+    width: 344px;
+  }
+  .main__box {
+    grid-gap: 20px;
+  }
+  .henkel {
+    width: 117px;
+    height: 64px;
+    margin: 28px 56px;
+  }
+  .JD {
+    width: 183px;
+    height: 34px;
+    margin: 43px 23px;
+  }
+  .mac {
+    width: 99px;
+    height: 74px;
+    margin: 23px 65px;
+  }
+  .ikea {
+    width: 175px;
+    height: 70px;
+    margin: 25px 27px;
+  }
+  .reebok {
+    width: 187px;
+    height: 38px;
+    margin: 41px 21px;
+  }
+  .nike {
+    width: 143px;
+    height: 74px;
+    margin: 23px 43px;
+  }
+  .cat {
+    width: 196px;
+    height: 30px;
+    margin: 45px 17px;
+  }
+}
+
+@media (max-width: 375px) {
+  .center {
+    padding-left: calc(50% - 168px);
+    padding-right: calc(50% - 168px);
+  }
+  .centerTop {
+    padding-left: 20px;
+  }
+  .header {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .header__left {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    margin: 17px 61px 16px 0px;
+  }
+  .header__right {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    margin: 17px 0px 22px 0px;
+  }
+  .header__right__uName {
+    display: none;
+  }
+  .header__center {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin: 0;
+    margin-left: calc(50% - 375px/2);
+  }
+  .header__inp {
+    width: 375px;
+  }
+  .main__imgBox {
+    max-width: 335px;
+  }
+  .vertLine {
+    display: none;
+  }
+  .henkel {
+    width: 142px;
+    height: 78px;
+    margin: 31px 97px;
+  }
+  .JD {
+    width: 234px;
+    height: 44px;
+    margin: 48px 51px;
+  }
+  .mac {
+    width: 100px;
+    height: 75px;
+    margin: 33px 118px;
+  }
+  .ikea {
+    width: 194px;
+    height: 78px;
+    margin: 31px 71px;
+  }
+  .reebok {
+    width: 232px;
+    height: 48px;
+    margin: 46px 52px;
+  }
+  .nike {
+    width: 141px;
+    height: 74px;
+    margin: 33px 97px;
+  }
+  .cat {
+    width: 247px;
+    height: 38px;
+    margin: 51px 44px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
